@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Champs de texte pour la modification -->
+    <EditText
+        android:id="@+id/updatedEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nouveau nom du produit"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/updatedDescriptionEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nouvelle description du produit"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/updatedPriceEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nouveau prix du produit"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="16dp"/>
+
+</LinearLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="87dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/minPriceFilter"
+            android:layout_width="160dp"
+            android:layout_height="60dp"
+            android:layout_marginBottom="8dp"
+            android:hint="Prix Min"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/maxPriceFilter"
+            android:layout_width="160dp"
+            android:layout_height="60dp"
+            android:layout_marginBottom="8dp"
+            android:hint="Prix Max"
+            android:inputType="numberDecimal" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/selectedCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Selected Category: None"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/filterRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="206dp"/>
+
+</LinearLayout>

@@ -1,0 +1,56 @@
+<!-- popup_add_product.xml -->
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    >
+
+    <EditText
+        android:id="@+id/editTextProductName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:hint="Nom du produit"/>
+
+    <EditText
+        android:id="@+id/editTextProductDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:hint="Description du produit"/>
+
+    <EditText
+        android:id="@+id/editTextProductCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:inputType="number"
+        android:hint="Catégorie (Entier)"/>
+
+    <EditText
+        android:id="@+id/editTextProductImageUrl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:hint="URL de l'image du produit"/>
+
+    <EditText
+        android:id="@+id/editTextProductPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:textColor="@color/white"
+        android:hint="Prix du produit"/>
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Ajouter"
+        android:textColor="@color/white"
+        android:background="@drawable/layout_button"
+        />
+</LinearLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Champs de texte pour la modification -->
+    <EditText
+        android:id="@+id/newEmailEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Votre nouvel email"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/newNameUserEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Votre nouveau nom"
+        android:layout_marginBottom="8dp"/>
+
+</LinearLayout>

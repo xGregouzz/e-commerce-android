@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_sign_up">SignUp</string>
+    <string name="title_activity_products_page">Products</string>
+    <string name="title_activity_product_detail">Product Details</string>
+    <string name="title_activity_home_page">Home Page</string>
+</resources>
